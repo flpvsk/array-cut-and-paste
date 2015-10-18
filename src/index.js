@@ -8,7 +8,8 @@
  */
 export default function cutAndPaste(arr, from, to) {
   const newArr = arr.slice();
+  const valueToPast = arr[from];
   newArr.splice(from, 1);
-  newArr.splice(to, 0, arr[from]);
+  newArr.splice(to, 0, valueToPast);
   return newArr;
 }

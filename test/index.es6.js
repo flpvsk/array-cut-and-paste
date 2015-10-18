@@ -40,4 +40,13 @@ describe('array-cut-and-paste', () => {
     expect(array).to.deep.equal(arrayCopy);
   });
 
+
+  it('can cut&paste from the beginning of the array', () => {
+    const array = [0, 1, 2, 3];
+
+    const result = cutPaste(array, 0, 2);
+
+    expect(result).to.deep.equal([1, 2, 0, 3]);
+  });
+
 });
