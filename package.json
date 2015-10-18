@@ -1,6 +1,6 @@
 {
   "name": "array-cut-and-paste",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cut and paste values in an array",
   "main": "index.js",
   "scripts": {
@@ -15,16 +15,14 @@
     "type": "git",
     "url": "git@github.com:filipovskii/array-cut-and-paste.git"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "filipovskii",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/filipovskii/array-cut-and-paste/issues"
   },
   "homepage": "https://github.com/filipovskii/array-cut-and-paste#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel": "^5.6.14",
     "babel-eslint": "^3.1.20",
